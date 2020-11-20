@@ -1,0 +1,34 @@
+name: forest
+channels:
+ - defaults
+ - conda-forge
+dependencies:
+ - python=3.7
+ - pip
+ 
+ # Geospatial
+ - geopandas
+ 
+ # Data
+ - pandas
+ - matplotlib
+ - descartes
+ 
+ # General data handling
+ - numpy
+ - pandas
+ 
+ # Database
+ - SQLAlchemy
+ - psycopg2
+ 
+ # Jupyter
+ - autopep8
+ - jupyterlab
+ - notebook
+ - jupyter_contrib_nbextensions
+ 
+ # Web
+ - requests
+ - beautifulsoup4
+ 
