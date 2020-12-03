@@ -8,6 +8,7 @@ dependencies:
  
  # Geospatial
  - geopandas
+ - rasterio
  
  # Data
  - pandas
@@ -16,7 +17,6 @@ dependencies:
  
  # General data handling
  - numpy
- - pandas
  
  # Database
  - SQLAlchemy
